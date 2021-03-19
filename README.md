@@ -12,7 +12,7 @@
 	1. процент корректности (отношение между правильно введенными символами и общим количеством введенных)
 1. Ответить на вопросы:
 	1. зачем нужны строки 5, 6:
-	```python
-		if event.keysym in ["Shift_L", "Shift_R", "Control_L", "Control_L", "Alt_L", "Alt_R"]:
-			return False
-	```
+```python
+if event.keysym in ["Shift_L", "Shift_R", "Control_L", "Control_L", "Alt_L", "Alt_R"]:
+	return False
+```
